@@ -1,0 +1,133 @@
+body {
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(30, 30, 30);
+    font-family: 'Teko';
+    color: azure;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    height: 100vh;
+    background: #101010;
+    overflow: hidden;
+}
+
+.container h1 {
+    color: #00eb95;
+    font-size: xx-large;
+}
+
+.input {
+    display: flex;
+    width: 100%;
+}
+
+.container input {
+    background: #47474780;
+    border: none;
+    padding: 0.5rem;
+    color: azure;
+    outline: none;
+    width: 100%;
+    height: 2rem;
+}
+
+
+.container ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    background: #cecece;
+    color:rgb(0, 27, 16);
+}
+
+.container li button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    height: 1rem;
+    padding: 0;
+    aspect-ratio: 1/1;
+}
+
+.container li button img {
+    height: 100%;
+}
+
+.add {
+    background-color: #00eb95;
+    border: none;
+    width: 3rem;
+    font-size: x-large;
+}
+
+.sort {
+    background-color: #00eb95;
+    border: none;
+    color: #101010;
+    padding: 0.5rem;
+    width: 100%;
+    font-size: x-large;
+    font-family: 'Teko';
+}
+
+.again {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #00eb95;
+    border: none;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    width: 2rem;
+}
+
+.again img, .add img {
+    width: 1rem;
+}
+
+.container_winner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 0.7rem;
+}
+
+::-webkit-scrollbar-track {
+    background: #47474780;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00eb95;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #00c87f;
+}
